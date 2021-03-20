@@ -1,0 +1,23 @@
+@import 'base.css';
+
+.button {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--secondary);
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+}
+
+.button-primary {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.button-secondary {
+    background-color: var(--gray);
+    color: var(--secondary);
+}

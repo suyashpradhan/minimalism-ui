@@ -1,0 +1,88 @@
+/*Imported Font*/
+@import 'page.css';
+@import 'util.css';
+@import 'components.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+:root {
+    --primary: #208FF1;
+    --secondary: #3F3D46;
+    --text-color: #010101;
+    --background-light-gray: #FAFBFD;
+    --background-medium-gray: #f2f2f2;
+    --gray: #E3EBDF;
+    --dark-mode: #111417;
+    --white: #fff;
+    --off-white: #ffffffcc;
+    --black: #010101;
+    --font-inter: 'Inter',
+        sans-serif;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+    background-color: var(--dark-mode);
+    font-family: var(--font-inter);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:active,
+button:focus {
+    outline: none;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit
+}
+
+iframe {
+    border: 0
+}
+
+ul,
+ol {
+    padding: 0;
+    margin: 0
+}
