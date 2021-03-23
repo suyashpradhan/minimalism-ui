@@ -29,7 +29,7 @@
 body {
     margin: 0;
     font-size: 16px;
-    background-color: var(--dark-mode);
+    background-color: var(--background-light-gray);
     font-family: var(--font-inter);
 }
 
@@ -85,4 +85,23 @@ ul,
 ol {
     padding: 0;
     margin: 0
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
 }
