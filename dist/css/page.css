@@ -163,5 +163,39 @@
     color: var(--secondary);
     line-height: 1.6;
     text-align: justify;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+}
+
+.main-content-header-secondary {
+    font-size: 1.6rem;
+    font-weight: 500;
+    border-bottom: 1px solid var(--gray);
+    margin: 2rem 0 0 0;
+}
+
+.content-collection {
+    margin: 1.6rem 0 0 0;
+}
+
+.content-collection li {
+    list-style: none;
+    padding: 0 0 1rem 0;
+}
+
+.content-collection li span {
+    color: var(--secondary);
+    font-size: 1.1rem;
+}
+
+.primary-icons {
+    color: var(--text-color);
+    margin-right: .6rem;
+    font-size: 1.2rem;
+}
+
+.container-box {
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem 0;
+    text-align: center;
 }

@@ -104,71 +104,133 @@
 
         <main class="main-section" id="main">
             <div class="main-content">
-
                 <div class="content">
-                    <h1 class="main-content-header">Introduction</h1>
-                    <p class="main-content-paragraph pT1">Get started with Minimalism-UI a front-end
-                        library and start building beautiful and
-                        responsive user interfaces.
+                    <h1 class="main-content-header">Grid System</h1>
+                    <p class="main-content-paragraph pT1">The grid system in Minimalism-UI is a flexbox based, 12-column
+                        system, that can be used to quickly (and easily) build websites and pages which look good on all
+                        screen sizes.
                     </p>
+                </div>
 
-                    <h2 class="main-content-header-secondary">CSS</h2>
-                    <p class="main-content-paragraph pT1 ">Copy-paste the stylesheet
-                        <span class="highlighter">link</span>
-                        before all other stylesheets to load our CSS.
-                    </p>
+                <div class="wrapper-fluid">
+                    <div class="col mT2">
+                        <div class="row">
+
+                            <div class="container-box mB1 xl-1 lg-1 md-1 sm-11
+                            pT1 pB ">
+                                1</div>
+                            <div class="container-box mB1 xl-11 lg-11 md-11 sm-11
+                            pT1 pB ">
+                                11</div>
+
+                            <div class="container-box mB1 xl-2 lg-2 md-2 sm-10
+                            pT1 pB ">
+                                2</div>
+                            <div class="container-box mB1 xl-10 lg-10 md-10 sm-10
+                            pT1 pB ">
+                                10</div>
+
+                            <div class="container-box mB1 xl-3 lg-3 md-3 sm-9
+                            pT1 pB ">
+                                3</div>
+                            <div class="container-box mB1 xl-9 lg-9 md-9 sm-9
+                            pT1 pB ">
+                                9</div>
+
+                            <div class="container-box mB1 xl-4 lg-4 md-4 sm-8
+                            pT1 pB ">
+                                4</div>
+                            <div class="container-box mB1 xl-8 lg-8 md-8 sm-8
+                            pT1 pB ">
+                                8</div>
+
+                            <div class="container-box mB1 xl-5 lg-5 md-5 sm-5
+                            pT1 pB ">
+                                5</div>
+                            <div class="container-box mB1 xl-7 lg-7 md-7 sm-7
+                            pT1 pB ">
+                                7</div>
+
+                            <div class="container-box mB1 xl-6 lg-6 md-6 sm-6
+                            pT1 pB ">
+                                6</div>
+                            <div class="container-box mB1 xl-6 lg-6 md-6 sm-6
+                            pT1 pB ">
+                                6</div>
+
+                            <div class="container-box mB1 xl-7 lg-7 md-7 sm-7
+                            pT1 pB ">
+                                7</div>
+                            <div class="container-box mB1 xl-5 lg-5 md-5 sm-5
+                            pT1 pB ">
+                                5</div>
+
+                            <div class="container-box mB1 xl-8 lg-8 md-8 sm-8
+                            pT1 pB ">
+                                8</div>
+                            <div class="container-box mB1 xl-4 lg-4 md-4 sm-4
+                            pT1 pB ">
+                                4</div>
+
+                            <div class="container-box mB1 xl-9 lg-9 md-9 sm-9
+                            pT1 pB ">
+                                9</div>
+                            <div class="container-box mB1 xl-3 lg-3 md-3 sm-3
+                            pT1 pB ">
+                                3</div>
+
+                            <div class="container-box mB1 xl-10 lg-10 md-10 sm-10
+                            pT1 pB ">
+                                10</div>
+                            <div class="container-box mB1 xl-2 lg-2 md-2 sm-2
+                            pT1 pB ">
+                                2</div>
+
+                            <div class="container-box mB1 xl-11 lg-1 md-11 sm-11
+                            pT1 pB ">
+                                11</div>
+                            <div class="container-box mB1 xl-1 lg-1 md-1 sm-1
+                            pT1 pB ">
+                                1</div>
+                            <div class="container-box mB1 xl-12 lg-12 md-12 sm-12 pT1 pB ">
+                                12</div>
+                        </div>
+                    </div>
                 </div>
 
                 <pre>
     <code class="plain">
- &lt;link rel="stylesheet" href="" integrity=" crossorigin="anonymous"&gt;
+ &lt;div class="wrapper-fluid"&gt;
+
+    &lt;div class="row"
+        &lt;div class="xl-1"&gt;1&lt;/div&gt;
+        &lt;div class="xl-11"&gt;11&lt;/div&gt;
+    &lt;/div&gt;
+
+   &lt;div class="row"
+        &lt;div class="xl-2"&gt;2&lt;/div&gt;
+        &lt;div class="xl-10"&gt;10&lt;/div&gt;
+   &lt;/div&gt;
+        
+   ...
+
+   &lt;div class="row"
+        &lt;div class="xl-6"&gt;6&lt;/div&gt;
+        &lt;div class="xl-6"&gt;6&lt;/div&gt;
+   &lt;/div&gt;
+
+
+    ...
+
+    &lt;div class="row"
+        &lt;div class="xl-8"&gt;8&lt;/div&gt;
+        &lt;div class="xl-2"&gt;2&lt;/div&gt;
+    &lt;/div&gt;
+
     </code>
 </pre>
-
-                <div class="content">
-                    <h2 class="main-content-header-secondary">JavaScript</h2>
-                    <p class="main-content-paragraph pT1 ">Many of our components require the use of JavaScript to
-                        function. Place
-                        the following <span class="highlighter">script</span>
-                        near the end of your pages, right before the closing <span class="highlighter">body</span>
-                        tag
-                    </p>
-                </div>
-
-                <pre>
-    <code class="plain">
- &lt;script rel="stylesheet" src="" integrity="" crossorigin="anonymous"&gt;
-    </code>
-</pre>
-
-
-                <div class="content">
-                    <h2 class="main-content-header-secondary">Cross browser compatiblity</h2>
-                    <p class="main-content-paragraph pT1 ">Minimalism-UI is compatible with almost all the browsers
-                        available, Following are the list of supported browsers:
-
-                        <ul class="content-collection">
-                            <li>
-                                <i class="fab fa-chrome primary-icons"></i>
-                                <span>Google Chrome</span>
-                            </li>
-                            <li>
-                                <i class="fab fa-firefox primary-icons"></i>
-                                <span>Firefox</span>
-                            </li>
-                            <li>
-                                <i class="fab fa-safari primary-icons"></i>
-                                <span>Safari</span> </li>
-                            <li>
-                                <i class="fab fa-edge primary-icons"></i>
-                                <span>Microsoft Edge</span>
-                            </li>
-                        </ul>
-                    </p>
-                </div>
             </div>
-    </div>
-    </main>
+        </main>
     </div>
 </body>
 

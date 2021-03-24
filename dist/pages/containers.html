@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/styles/default.min.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/page.css">
+</head>
+
+<body>
+    <header class="page-header ">
+        <nav class="pB1 flex j-space-between a-items-center pT1 wrapper">
+            <div class="left-nav">
+                <ul class="flex j-space-between a-items-center">
+                    <li class="nav-links mR2 toggle-button" id="toggle"><a href="#"><i class="fa fa-bars"></i>
+                        </a></li>
+                    <li class="nav-links mR2"><a href="#">Home</a></li>
+                    <li class="nav-links mR2"><a href="#">Docs</a></li>
+                    <li class="nav-links mR2"><a href="#">Example</a></li>
+                    <li class="nav-links "><a href="#">About</a></li>
+                </ul>
+            </div>
+            <div class="right-nav">
+                <ul class="flex j-space-between">
+                    <li class="nav-links link  mR1"><a href=""><i class="fas fa-search"></i></a></li>
+                    <li class="nav-links link mR1"><a href=""><i class="fab fa-github"></i></a></li>
+                    <li class="nav-links link"><a href=""><i class="far fa-moon"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="wrapper page-layout">
+        <sidebar class="sidebar" id="sidebar">
+            <div class="sidebar-section">
+                <h1 class="sidebar-title">Getting Started</h1>
+                <ul class="sidebar-collection">
+                    <li class="sidebar-list"><a href="documentation.html">Introduction</a></li>
+                </ul>
+            </div>
+
+            <div class="sidebar-section">
+                <h1 class="sidebar-title">Layout</h1>
+                <ul class="sidebar-collection">
+                    <li class="sidebar-list"><a href="containers.html">Containers</a></li>
+                    <li class="sidebar-list"><a href="grid-system.html">Grid System</a></li>
+                    <li class="sidebar-list"><a href="#">Navbar</a></li>
+                </ul>
+            </div>
+
+            <div class="sidebar-section">
+                <h1 class="sidebar-title">Basic Components</h1>
+                <ul class="sidebar-collection">
+                    <li class="sidebar-list"><a href="#">Badge</a></li>
+                    <li class="sidebar-list"><a href="#">Avatar</a></li>
+                    <li class="sidebar-list"><a href="#">Lists</a></li>
+                    <li class="sidebar-list"><a href="#">Button</a></li>
+                    <li class="sidebar-list"><a href="#">Image</a></li>
+                    <li class="sidebar-list"><a href="#">Alerts</a></li>
+                    <li class="sidebar-list"><a href="#">Tables</a></li>
+                    <li class="sidebar-list"><a href="#">Card</a></li>
+
+                </ul>
+            </div>
+
+            <div class="sidebar-section">
+                <h1 class="sidebar-title">Form Components</h1>
+                <ul class="sidebar-collection">
+                    <li class="sidebar-list"><a href="#">Forms</a></li>
+                    <li class="sidebar-list"><a href="#">Input</a></li>
+                    <li class="sidebar-list"><a href="#">Textarea</a></li>
+                    <li class="sidebar-list"><a href="#">Select</a></li>
+                    <li class="sidebar-list"><a href="#">Radio </a></li>
+                    <li class="sidebar-list"><a href="#">Checkbox </a></li>
+                </ul>
+            </div>
+
+            <div class="sidebar-section">
+                <h1 class="sidebar-title">Advance Components</h1>
+                <ul class="sidebar-collection">
+                    <li class="sidebar-list"><a href="#">Modal</a></li>
+                    <li class="sidebar-list"><a href="#">Tooltips</a></li>
+                    <li class="sidebar-list"><a href="#">Ratings</a></li>
+                    <li class="sidebar-list"><a href="#">Toast</a></li>
+                </ul>
+            </div>
+
+            <div class="sidebar-section">
+                <h1 class="sidebar-title">Common Utilities</h1>
+                <ul class="sidebar-collection">
+                    <li class="sidebar-list"><a href="#">Display Utilities</a></li>
+                    <li class="sidebar-list"><a href="#">Flex Utilities</a></li>
+                    <li class="sidebar-list"><a href="#">Position Utilities </a></li>
+                    <li class="sidebar-list"><a href="#">Sizing Utilities </a></li>
+                    <li class="sidebar-list"><a href="#">Spacing Utilities </a></li>
+                    <li class="sidebar-list"><a href="#">Text Utilities </a></li>
+                </ul>
+            </div>
+        </sidebar>
+
+        <main class="main-section" id="main">
+            <div class="main-content">
+
+                <div class="content">
+                    <h1 class="main-content-header">Containers</h1>
+                    <p class="main-content-paragraph pT1">Containers are a fundamental building block of any website.
+                        Minimalism-UI comes with two different types of containers:
+                    </p>
+
+                    <ul class="content-collection">
+                        <li>
+                            <span class="code">.wrapper</span>
+                            <span> which sets a different <span class="code">.max-width</span> at each responsive
+                                breakpoint.</span>
+                        </li>
+                        <li>
+                            <span class="code">.wrapper-fluid</span>
+                            <span> which is <span class="code">.width: 100%</span> at all breakpoints.</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="content">
+                    <h2 class="main-content-header-secondary">Breakpoints</h2>
+                    <p class="main-content-paragraph pT1 ">Breakpoints are customizable widths that determine how your
+                        responsive layout behaves across device or viewport sizes. The following table shows how
+                        breakpoints in Minimalism-UI works:
+                        <table class="table table-inner-bordered">
+                            <tbody>
+                                <tr>
+                                    <th></th>
+                                    <th>
+                                        Extra small
+                                        <br>
+                                        (&lt;= 576px)
+                                    </th>
+                                    <th>
+                                        Small and up
+                                        <br>
+                                        (&gt; 576px)
+                                    </th>
+                                    <th>
+                                        Medium and up
+                                        <br>
+                                        (&gt; 768px)
+                                    </th>
+                                    <th>
+                                        Large and up
+                                        <br>
+                                        (&gt; 992px)
+                                    </th>
+                                    <th>
+                                        Extra large
+                                        <br>
+                                        (&gt; 1200px)
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td><span class="code bg-transparent border-0 pl-0">.wrapper</span></td>
+                                    <td class="text-muted">100%</td>
+                                    <td>540px</td>
+                                    <td>720px</td>
+                                    <td>960px</td>
+                                    <td>1140px</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="code bg-transparent border-0 pl-0">.wrapper-sm</span></td>
+                                    <td class="text-muted">100%</td>
+                                    <td>540px</td>
+                                    <td>720px</td>
+                                    <td>960px</td>
+                                    <td>1140px</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="code bg-transparent border-0 pl-0">.wrapper-md</span></td>
+                                    <td class="text-muted">100%</td>
+                                    <td class="text-muted">100%</td>
+                                    <td>720px</td>
+                                    <td>960px</td>
+                                    <td>1140px</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="code bg-transparent border-0 pl-0">.wrapper-lg</span></td>
+                                    <td class="text-muted">100%</td>
+                                    <td class="text-muted">100%</td>
+                                    <td class="text-muted">100%</td>
+                                    <td>960px</td>
+                                    <td>1140px</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="code bg-transparent border-0 pl-0">.wrapper-xl</span></td>
+                                    <td class="text-muted">100%</td>
+                                    <td class="text-muted">100%</td>
+                                    <td class="text-muted">100%</td>
+                                    <td class="text-muted">100%</td>
+                                    <td>1140px</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="code bg-transparent border-0 pl-0">.wrapper-fluid</span></td>
+                                    <td class="text-muted">100%</td>
+                                    <td class="text-muted">100%</td>
+                                    <td class="text-muted">100%</td>
+                                    <td class="text-muted">100%</td>
+                                    <td class="text-muted">100%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+
+                    </p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+</body>
+
+
+<script src="https://kit.fontawesome.com/7fdc918442.js" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/highlight.min.js"></script>
+<script src="../script/script.js"></script>
+<script>
+    hljs.highlightAll();
+</script>
+</body>
+
+</html>
