@@ -146,6 +146,10 @@ table {
     border-bottom: 1px solid #dadfe1;
 }
 
+.table thead tr {
+    border-bottom: 2px solid #dadfe1;
+}
+
 .table-bordered td:not(:last-child),
 .table-bordered th:not(:last-child),
 .table-inner-bordered td:not(:last-child),
@@ -170,4 +174,21 @@ table {
 
 .table th {
     font-weight: 700;
+}
+
+.table-bordered td:not(:last-child),
+.table-bordered th:not(:last-child),
+.table-inner-bordered td:not(:last-child),
+.table-inner-bordered th:not(:last-child) {
+    border-right: 1px solid #dadfe1;
+}
+
+.card {
+    position: relative;
+    margin: 2rem 0;
+    padding: 1rem;
+    color: rgba(0, 0, 0, .85);
+    background-color: #fff;
+    border-radius: .4rem;
+    border: 1px solid rgba(0, 0, 0, .2);
 }
