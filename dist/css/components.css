@@ -6,18 +6,258 @@
     line-height: 1.5;
     color: var(--secondary);
     text-align: center;
-    background-color: transparent;
-    border: 1px solid transparent;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .2);
     padding: .375rem .75rem;
     border-radius: .25rem;
+
 }
 
 .button-primary {
     background-color: var(--primary);
+    border: 1px solid var(--primary);
     color: var(--white);
 }
 
 .button-secondary {
-    background-color: var(--gray);
+    background-color: var(--secondary);
+    border: 1px solid var(--secondary);
+    color: var(--white);
+}
+
+.button-success {
+    background-color: var(--success);
+    border: 1px solid var(--success);
+    color: rgba(0, 0, 0, .85);
+}
+
+.button-warning {
+    background-color: var(--warning);
+    border: 1px solid var(--warning);
+    color: rgba(0, 0, 0, .85);
+}
+
+.button-danger {
+    background-color: var(--danger);
+    border: 1px solid var(--danger);
+    color: var(--white);
+}
+
+/*Links*/
+.link {
+    background: transparent;
+    border: none;
+    font-size: 1.1rem;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.link-primary {
+    color: var(--primary);
+}
+
+.link-secondary {
     color: var(--secondary);
+}
+
+.link-white {
+    color: var(--white);
+}
+
+.link-black {
+    color: var(--text-color);
+}
+
+/* Badge Components */
+.badge {
+    display: inline-block;
+    position: relative;
+    font-size: 1.1rem;
+    line-height: 1.2;
+    padding: .2rem .8rem;
+    color: var(--secondary);
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: .3rem;
+}
+
+.badge-primary {
+    color: #fff;
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.badge.badge-success {
+    color: rgba(0, 0, 0, .85);
+    background-color: var(--success);
+    border-color: var(--success);
+}
+
+.badge.badge-warning {
+    color: rgba(0, 0, 0, .85);
+    background-color: var(--warning);
+    border-color: var(--warning);
+}
+
+.badge.badge-danger {
+    color: #fff;
+    background-color: var(--danger);
+    border-color: var(--danger);
+}
+
+/*Alerts*/
+.alert {
+    position: relative;
+    padding: 1rem 2rem;
+    color: rgba(0, 0, 0, .85);
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: .4rem;
+}
+
+.alert-heading {
+    color: inherit;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 0 0 .5rem;
+}
+
+.alert-primary {
+    border: 1px solid var(--primary);
+}
+
+.alert-secondary {
+    border: 1px solid var(--secondary);
+}
+
+.alert-success {
+    border: 1px solid var(--success);
+}
+
+.alert-warning {
+    border: 1px solid var(--warning);
+}
+
+.alert-danger {
+    border: 1px solid var(--danger);
+}
+
+.alert-primary-filled {
+    color: #fff;
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+}
+
+.alert-secondary-filled {
+    color: #fff;
+    background-color: var(--secondary);
+    border: 1px solid var(--secondary);
+}
+
+.alert-success-filled {
+    color: #fff;
+    background-color: var(--success);
+    border: 1px solid var(--success);
+}
+
+.alert-warning-filled {
+    color: var(--text-color);
+    background-color: var(--warning);
+    border: 1px solid var(--warning);
+}
+
+.alert-danger-filled {
+    color: #fff;
+    background-color: var(--danger);
+    border: 1px solid var(--danger);
+}
+
+/*Avatar*/
+.avatar {
+    border: 1px solid var(--gray);
+    object-fit: cover;
+}
+
+.small-avatar {
+    height: 3rem;
+    width: 3rem;
+}
+
+.medium-avatar {
+    height: 6rem;
+    width: 6rem;
+}
+
+.rounded-avatar {
+    border-radius: 100%;
+}
+
+.square-avatar {
+    border-radius: 1rem;
+}
+
+.notification-avatar {
+    position: relative;
+    display: inline-block;
+}
+
+.notification-badge {
+    content: '';
+    position: absolute;
+    bottom: 2%;
+    right: -10%;
+    height: 1rem;
+    border-radius: 100%;
+    border: 2px solid var(--white);
+    width: 1rem;
+    background-color: var(--success);
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto
+}
+
+/*Card*/
+.cardd-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1.6rem;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.cardd {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    margin: 1rem 0;
+    padding: 0 !important
+}
+
+.cardd-body {
+    padding: 1rem;
+}
+
+.cardd-img {
+    width: 100%;
+    height: 200px
+}
+
+.cardd-one {
+    width: 20rem
+}
+
+.cardd-title {
+    color: inherit;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 0 0 .5rem;
+}
+
+.cardd-description {
+    color: var(--secondary);
+    line-height: 1.4;
 }

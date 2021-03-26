@@ -16,6 +16,9 @@
     --white: #fff;
     --off-white: #ffffffcc;
     --black: #010101;
+    --success: #0be881;
+    --warning: #ffcf00;
+    --danger: #ff4d4f;
     --font-inter: 'Inter',
         sans-serif;
 }
@@ -109,6 +112,7 @@ ol {
 pre {
     margin: 0;
     font-family: inherit !important;
+    word-wrap: wrap;
 }
 
 .highlighter {
@@ -127,6 +131,7 @@ pre {
     background-color: var(--gray);
     border: 1px solid var(--gray);
     border-radius: .2rem;
+    word-wrap: wrap;
 }
 
 table {
