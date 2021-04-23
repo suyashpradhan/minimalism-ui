@@ -1,5 +1,8 @@
 .page-body {
     height: 100vh;
+    background: url('../images/hero.svg') center 10px no-repeat;
+    position: relative;
+    width: 100%;
 }
 
 .page-header {
@@ -198,4 +201,10 @@
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem 0;
     text-align: center;
+}
+
+@media screen and (max-width:525px) and (min-width:0px) {
+    .section-title {
+        font-size: 2rem;
+    }
 }
