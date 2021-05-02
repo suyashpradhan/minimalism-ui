@@ -261,3 +261,41 @@
     color: var(--secondary);
     line-height: 1.4;
 }
+
+/*Form*/
+.form {
+    height: 100%;
+    width: 100%;
+}
+
+.form-column {
+    margin-bottom: 1rem;
+}
+
+.form-column label {
+    padding-bottom: 0.2rem;
+    display: block;
+    color: var(--secondary);
+}
+
+.form-field {
+    width: 100%;
+    padding: 0.6rem 0.4rem;
+    border-radius: 0.3rem;
+    border: 1px solid var(--gray);
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: transparent;
+}
+
+.form-textarea {
+    height: 12rem;
+    resize: none;
+    width: 100%;
+    padding: 0.6rem 0.4rem;
+    border-radius: 0.3rem;
+    border: 1px solid var(--gray);
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: transparent;
+}

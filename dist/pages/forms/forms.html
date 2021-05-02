@@ -71,24 +71,9 @@
                 <h1 class="sidebar-title">Form Components</h1>
                 <ul class="sidebar-collection">
                     <li class="sidebar-list"><a href="#">Forms</a></li>
-                    <li class="sidebar-list"><a href="#">Input</a></li>
-                    <li class="sidebar-list"><a href="#">Textarea</a></li>
-                    <li class="sidebar-list"><a href="#">Select</a></li>
-                    <li class="sidebar-list"><a href="#">Radio </a></li>
-                    <li class="sidebar-list"><a href="#">Checkbox </a></li>
+
                 </ul>
             </div>
-
-            <div class="sidebar-section">
-                <h1 class="sidebar-title">Advance Components</h1>
-                <ul class="sidebar-collection">
-                    <li class="sidebar-list"><a href="#">Modal</a></li>
-                    <li class="sidebar-list"><a href="#">Tooltips</a></li>
-                    <li class="sidebar-list"><a href="#">Ratings</a></li>
-                    <li class="sidebar-list"><a href="#">Toast</a></li>
-                </ul>
-            </div>
-
             <div class="sidebar-section">
                 <h1 class="sidebar-title">Common Utilities</h1>
                 <ul class="sidebar-collection">
@@ -105,47 +90,56 @@
         <main class="main-section" id="main">
             <div class="main-content">
                 <div class="content">
-                    <h1 class="main-content-header">Card</h1>
-                    <p class="main-content-paragraph pT1">Minimalism-UI's cards provide a flexible and extensible
-                        content
-                        container with multiple variants and options.
+                    <h1 class="main-content-header">Form</h1>
+                    <p class="main-content-paragraph pT1">Forms can be composed of <span
+                            class="highlighter">input</span>,
+                        <span class="highlighter">select</span>,
+                        <span class="highlighter">textform</span> elements, and other specialized input elements, such
+                        as checkboxes, and
+                        radio buttons. The first example shows all the form-controls available in one single form.
                     </p>
                     <div class="content">
-                        <h2 class="main-content-header-secondary">Default Card</h2>
-                        <p class="main-content-paragraph pT1 ">The class names and syntax for the default cards are as
+                        <h2 class="main-content-header-secondary">Simple Form</h2>
+                        <p class="main-content-paragraph pT1 ">The class names and syntax for the default form are as
                             follows :
                         </p>
                         <div class="card">
-                            <div class="cardd cardd-one">
-                                <div class="cardd-image">
-                                    <img src="https://cdn.pixabay.com/photo/2017/09/26/13/42/apple-2788662_960_720.jpg"
-                                        class="cardd-img" alt="">
+                            <form action="#" class="form">
+                                <div class="form-column">
+                                    <label for="" class="label">First Name</label>
+                                    <input type="text" class="form-field">
                                 </div>
-                                <div class="cardd-body">
-                                    <h1 class="cardd-title">Card heading</h1>
-
-                                    <p class="cardd-description">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                        elit.
-                                        aliquam vel...
-                                    </p>
-
-                                    <button class="mT1 button button-primary">Pay Now</button>
+                                <div class="form-column">
+                                    <label for="" class="label">Last Name</label>
+                                    <input type="text" class="form-field">
                                 </div>
-                            </div>
+                                <div class="form-column">
+                                    <label for="" class="label">Username</label>
+                                    <input type="text" class="form-field">
+                                </div>
+                                <div class="form-column">
+                                    <label for="" class="label">Password</label>
+                                    <input type="text" class="form-field">
+                                </div>
+                                <div class="form-column">
+                                    <label for="" class="label">Message</label>
+                                    <textarea name="" class="form-textarea"></textarea>
+                                </div>
+
+                                <button class="button button-primary text-center ">Submit Form</button>
+                            </form>
                         </div>
 
                         <pre>
     <code class="plain">
-&lt;div class="cardd cardd-one">
-    &lt;div class="cardd-image">&lt;
-        &lt;img class="cardd-img" src="...">&lt;/img&gt;
+&lt;form class="form ">
+    &lt;div class="form-column">
+        &lt;input type="text" class="form-field">&lt;/&gt;
     &lt;/div&gt;
-    &lt;div class="cardd-body">&lt;
-        &lt;h1 class="cardd-title">Card Title&lt;/h1&gt;
-        &lt;p class="cardd-description">Card Description&lt;/p&gt;
-        &lt;button class="button button-primary">Pay Now&lt;/button&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
+     &lt;div class="form-column">
+         &lt;textarea  class="form-textarea">&lt;/&gt;
+     &lt;/div&gt;
+&lt;/form&gt;
  </code>
 </pre>
                     </div>
