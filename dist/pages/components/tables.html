@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/styles/default.min.css">
+    <link rel="stylesheet" href="../../css/base.css">
+    <link rel="stylesheet" href="../../css/page.css">
+</head>
+
+<body>
+    <header class="page-header ">
+        <nav class="pB1 flex j-space-between a-items-center pT1 wrapper">
+            <div class="left-nav">
+                <ul class="flex j-space-between a-items-center">
+                    <li class="nav-links mR2 toggle-button" id="toggle"><a href="#"><i class="fa fa-bars"></i>
+                        </a></li>
+                    <li class="nav-links mR2"><a href="../../index.html">Home</a></li>
+                    <li class="nav-links mR2"><a href="documentation.html">Docs</a></li>
+                   
+                </ul>
+            </div>
+            <div class="right-nav">
+                <ul class="flex j-space-between">
+                    <li class="nav-links link mR1"><a href="https://github.com/suyashpradhan/component-library"><i class="fab fa-github"></i></a></li>
+                   
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="wrapper page-layout">
+        <sidebar class="sidebar" id="sidebar">
+            <div class="sidebar-section">
+                <h1 class="sidebar-title">Getting Started</h1>
+                <ul class="sidebar-collection">
+                    <li class="sidebar-list"><a href="../documentation.html">Introduction</a></li>
+                </ul>
+            </div>
+
+            <div class="sidebar-section">
+                <h1 class="sidebar-title">Layout</h1>
+                <ul class="sidebar-collection">
+                    <li class="sidebar-list"><a href="../containers.html">Containers</a></li>
+                    <li class="sidebar-list"><a href="../grid-system.html">Grid System</a></li>
+
+                </ul>
+            </div>
+
+            <div class="sidebar-section">
+                <h1 class="sidebar-title">Basic Components</h1>
+                <ul class="sidebar-collection">
+                    <li class="sidebar-list"><a href="../components/badge.html">Badge</a></li>
+                    <li class="sidebar-list"><a href="../components/avatar.html">Avatar</a></li>
+
+                    <li class="sidebar-list"><a href="../components/buttons.html">Button</a></li>
+                    <li class="sidebar-list"><a href="../components/image.html">Image</a></li>
+                    <li class="sidebar-list"><a href="../components/alerts.html">Alerts</a></li>
+                    <li class="sidebar-list"><a href="../components/tables.html">Tables</a></li>
+                    <li class="sidebar-list"><a href="../components/card.html">Card</a></li>
+
+                </ul>
+            </div>
+
+            <div class="sidebar-section">
+                <h1 class="sidebar-title">Form Components</h1>
+                <ul class="sidebar-collection">
+                    <li class="sidebar-list"><a href="../forms/forms.html">Forms</a></li>
+
+                </ul>
+            </div>
+            <div class="sidebar-section">
+                <h1 class="sidebar-title">Common Utilities</h1>
+                <ul class="sidebar-collection">
+                    <li class="sidebar-list"><a href="../utilities/display-utilities.html">Display Utilities</a></li>
+                    <li class="sidebar-list"><a href="../utilities/flex-utilities.html">Flex Utilities</a></li>
+                   
+                </ul>
+            </div>
+        </sidebar>
+
+        <main class="main-section" id="main">
+            <div class="main-content">
+                <div class="content">
+                    <h1 class="main-content-header">Tables</h1>
+                    <p class="main-content-paragraph pT1">Tables can be used to represent tabular data using rows and
+                        columns. They can be created by adding the <span class="code">.table</span> class to the
+                        <span class="code">table</span>element.
+                    </p>
+                    <div class="content">
+                        <h2 class="main-content-header-secondary">Default Table </h2>
+                        <p class="main-content-paragraph pT1 ">The class names and syntax for the default table are as
+                            follows :
+                        </p>
+                        <div class="card">
+                            <table class="table table-inner-bordered">
+                                <thead>
+                                    <tr>
+                                        <th class="text-monospace ">#</th>
+                                        <th>First Name</th>
+                                        <th>Last Name</th>
+                                        <th>Designation</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            1
+                                        </td>
+                                        <td>
+                                            John
+                                        </td>
+                                        <td>
+                                            Doe
+                                        </td>
+                                        <td>
+                                            UI Designer
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            2
+                                        </td>
+                                        <td>
+                                            Jane
+                                        </td>
+                                        <td>
+                                            Doe
+                                        </td>
+                                        <td>
+                                            UI Developer
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            3
+                                        </td>
+                                        <td>
+                                            Steve
+                                        </td>
+                                        <td>
+                                            Smith
+                                        </td>
+                                        <td>
+                                            Web Engineer
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            4
+                                        </td>
+                                        <td>
+                                            Virat
+                                        </td>
+                                        <td>
+                                            Kohli
+                                        </td>
+                                        <td>
+                                            Principal Engineer
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <pre>
+    <code class="plain">
+&lt;table class="table">
+    &lt;thead>
+        &lt;tr>
+            &lt;th>#&lt;/th>
+            &lt;th>First Name&lt;/th>
+            &lt;th>Last Name&lt;/th>
+            &lt;th>Designation&lt;/th>
+        &lt;/tr>
+    &lt;/thead>
+    &lt;tbody>
+        &lt;tr>
+            &lt;td>#&lt;/td>
+            &lt;td>John&lt;/td>
+            &lt;td>Doe&lt;/td>
+            &lt;td>UI Designer&lt;/td>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td>#&lt;/td>
+            &lt;td>Jane&lt;/td>
+            &lt;td>Doe&lt;/td>
+            &lt;td>UI Developer&lt;/td>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td>#&lt;/td>
+            &lt;td>Steve&lt;/td>
+            &lt;td>Smith&lt;/td>
+            &lt;td>Web Engineer&lt;/td>
+        &lt;/tr>
+    &lt;/body>
+&lt;/table>
+ </code>
+</pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+
+<script src="https://kit.fontawesome.com/7fdc918442.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/highlight.min.js"></script>
+<script src="../../script/script.js"></script>
+<script>
+    hljs.highlightAll();
+</script>
+</body>
+
+</html>
